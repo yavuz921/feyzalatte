@@ -33,6 +33,10 @@ export const content = {
       { id: 3, title: "allahım şuna bi bakar mısınız", description: "", image: "/photos/3.jpeg" },
       { id: 4, title: "karımın gönlü olsun diye koyuldu", description: "", image: "/photos/4.jpeg" },
       { id: 5, title: "şu ayaklar allahım yere değmiyordu", description: "", image: "/photos/5.jpeg" },
+      { id: 6, title: "nere gidiyor bnu pembe sütüm", description: "", image: "/photos/6.jpeg" },
+      { id: 7, title: "o bacaklarınıı...", description: "", image: "/photos/7.jpeg" },
+      { id: 8, title: "keşke bisikletin koltuğunda olsam..", description: "", image: "/photos/8.jpeg" },
+      { id: 9, title: "şundan 100 tane yapmazsam ne olayım", description: "", image: "/photos/9.jpeg" },
     ],
   },
 };
