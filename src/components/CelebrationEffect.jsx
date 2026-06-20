@@ -5,7 +5,7 @@ const PARTICLES = ["💗", "🌸", "🥛", "💕", "🌼", "🩷", "💧", "🌺
 
 export default function CelebrationEffect({ active }) {
   const containerRef = useRef(null);
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     if (!active) return;
@@ -27,20 +27,20 @@ export default function CelebrationEffect({ active }) {
     }
 
     const timer = setTimeout(() => {
-      if (container) container.innerHTML = "";
-    }, 5000);
+      setVisible(false);
+      container.innerHTML = "";
+    }, 2500);
 
     return () => clearTimeout(timer);
   }, [active]);
 
-  if (!active || !visible) return null;
+  if (!visible) return null;
 
   return (
     <div className="celebration-wrapper">
       <div ref={containerRef} className="celebration-particles" aria-hidden="true" />
-      <div className="celebration-message fade-in-pop" onClick={() => setVisible(false)}>
+      <div className="celebration-message fade-in-pop">
         <span className="celebration-text">%100 Barışıldı 💖</span>
-        <span className="celebration-close">Tıkla & kapat ✕</span>
       </div>
     </div>
   );

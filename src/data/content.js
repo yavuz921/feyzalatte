@@ -26,7 +26,7 @@ export const content = {
   },
 
   gallery: {
-    title: "Anılarımız 🥛🌸",
+    title: "Cücük makinem 🥛🌸",
     items: [
       { id: 1, title: "Anı 1", description: "Yakında eklenecek...", image: null },
       { id: 2, title: "Anı 2", description: "Yakında eklenecek...", image: null },
