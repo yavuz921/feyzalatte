@@ -1,0 +1,15 @@
+.escape-btn {
+  padding: 0.85rem 2rem;
+  border-radius: 50px;
+  border: 2px solid #c8b8d0;
+  background: #f3eef8;
+  color: #8a7090;
+  font-size: 1rem;
+  cursor: not-allowed;
+  transition: left 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+              top 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+              transform 0.3s ease;
+  user-select: none;
+  z-index: 9999;
+  white-space: nowrap;
+}

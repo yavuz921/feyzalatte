@@ -1,0 +1,81 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-inner {
+  max-width: 700px;
+}
+
+.hero-milk-icon {
+  font-size: 4rem;
+  margin-bottom: 1.2rem;
+  animation: milkBounce 3s ease-in-out infinite;
+}
+
+@keyframes milkBounce {
+  0%, 100% { transform: translateY(0) rotate(-5deg); }
+  50% { transform: translateY(-12px) rotate(5deg); }
+}
+
+.hero-title {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  color: #5a3e5a;
+  margin-bottom: 1.2rem;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  color: #7a5f7a;
+  max-width: 520px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.7;
+}
+
+.scroll-down-btn {
+  background: none;
+  border: 2px solid #e8a8b8;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  color: #c47090;
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-down-btn:hover {
+  background: #fadadd;
+  transform: translateY(4px);
+}
+
+.scroll-arrow {
+  animation: arrowBounce 1.8s ease-in-out infinite;
+  display: inline-block;
+}
+
+@keyframes arrowBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
+}
+
+.fade-in {
+  animation: fadeIn 1.2s ease both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
