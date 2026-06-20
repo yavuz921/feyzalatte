@@ -1,0 +1,91 @@
+.feyzagram-section {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.feyzagram-card {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 253, 248, 0.85);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(232, 168, 184, 0.4);
+  border-radius: 24px;
+  box-shadow: 0 8px 40px rgba(180, 120, 150, 0.12);
+  padding: 3rem 2.5rem;
+  text-align: center;
+}
+
+.feyzagram-logo {
+  font-family: 'Georgia', serif;
+  font-size: 2.2rem;
+  color: #c4607a;
+  margin-bottom: 2rem;
+  letter-spacing: -0.5px;
+}
+
+.feyzagram-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feyzagram-input {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1.5px solid #e8c8d0;
+  border-radius: 12px;
+  background: rgba(255, 250, 252, 0.9);
+  color: #5a3e5a;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+  letter-spacing: 0.05em;
+}
+
+.feyzagram-input::placeholder {
+  color: #c0a0b0;
+}
+
+.feyzagram-input:focus {
+  border-color: #c4607a;
+  box-shadow: 0 0 0 3px rgba(196, 96, 122, 0.12);
+}
+
+.feyzagram-input--hearts {
+  letter-spacing: 0.15em;
+}
+
+.feyzagram-btn {
+  margin-top: 0.5rem;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #e8b8c8, #c47090);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 16px rgba(196, 112, 144, 0.25);
+}
+
+.feyzagram-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(196, 112, 144, 0.35);
+}
+
+.feyzagram-btn:active {
+  transform: translateY(0);
+}
+
+.feyzagram-hint {
+  margin-top: 1.5rem;
+  font-size: 0.82rem;
+  color: #b090a0;
+}
