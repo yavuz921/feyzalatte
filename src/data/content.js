@@ -28,12 +28,11 @@ export const content = {
   gallery: {
     title: "Cücük makinem 🥛🌸",
     items: [
-      { id: 1, title: "Anı 1", description: "Yakında eklenecek...", image: null },
-      { id: 2, title: "Anı 2", description: "Yakında eklenecek...", image: null },
-      { id: 3, title: "Anı 3", description: "Yakında eklenecek...", image: null },
-      { id: 4, title: "Anı 4", description: "Yakında eklenecek...", image: null },
-      { id: 5, title: "Anı 5", description: "Yakında eklenecek...", image: null },
-      { id: 6, title: "Anı 6", description: "Yakında eklenecek...", image: null },
+      { id: 1, title: "Bunun yeri bende ayrı", description: "", image: "/photos/1.jpeg" },
+      { id: 2, title: "benim minik kedim", description: "", image: "/photos/2.jpeg" },
+      { id: 3, title: "allahım şuna bi bakar mısınız", description: "", image: "/photos/3.jpeg" },
+      { id: 4, title: "karımın gönlü olsun diye koyuldu", description: "", image: "/photos/4.jpeg" },
+      { id: 5, title: "şu ayaklar allahım yere değmiyordu", description: "", image: "/photos/5.jpeg" },
     ],
   },
 };
