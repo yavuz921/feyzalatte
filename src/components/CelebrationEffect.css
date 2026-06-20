@@ -73,10 +73,12 @@
 }
 
 .fade-in-pop {
-  animation: fadeInPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  animation: celebrateInOut 2.5s ease forwards;
 }
 
-@keyframes fadeInPop {
-  from { opacity: 0; transform: translate(-50%, -50%) scale(0.6); }
-  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+@keyframes celebrateInOut {
+  0%   { opacity: 0; transform: translate(-50%, -50%) scale(0.6); }
+  15%  { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  70%  { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(0.9); }
 }
