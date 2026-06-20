@@ -47,7 +47,6 @@ export default function FeyzagramSection() {
           </button>
         </form>
 
-        <p className="feyzagram-hint">Feyzagram • Sadece senindir 💗</p>
       </div>
     </section>
   );
