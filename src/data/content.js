@@ -1,7 +1,7 @@
 export const content = {
   hero: {
-    title: "Feyza ile Barışma Protokolü 💗",
-    subtitle: "Bu site, seni ne kadar sevdiğimi göstermek ve gönlünü almak için hazırlandı.",
+    title: "Feyzam ile Barışma Protokolü 💗",
+    subtitle: "",
   },
 
   contract: {
