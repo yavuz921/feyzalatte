@@ -14,6 +14,7 @@ export const content = {
       "Bazı konularda kocama daha sakin davranıcam onu daha çok anlıycam.",
       "Bir şeye sinirlenirse gerçekten bunu ciddiye alıcam ve eylemlerimle bunu belli edicem.",
       "Kocamın beni her şeyden çok sevdiğini çok aşık olduğunu hiç unutmuycam aklımın bir köşesinde durucak.",
+      "Wp ye kocam için girerim, kocam mesaj attığı an ne olursa olsun açıp cevap veririm. Kocam mesaj yazdığı halde wp ye girip yazmadan çıkarsam kendime sağlam bi yumruk atıcam.",
     ],
     acceptButton: "Kabul Ediyorum ❤️",
     rejectButton: "Kabul Etmiyorum 🙈",
